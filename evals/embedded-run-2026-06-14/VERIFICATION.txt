@@ -1,0 +1,10 @@
+Artifact verification (run by the orchestrator, not trusted from agent reports):
+
+WITH-SKILL repo:
+  git checkout 4b41ee0 ("test ... (red)")  -> node --test => # tests 1 # pass 0 # fail 1 (exit 1)   [REAL failing test committed]
+  git checkout 516d833 ("feat ... (green)") -> node --test => # tests 1 # pass 1 # fail 0 (exit 0)   [implementation makes it pass]
+
+BASELINE repo:
+  commit 1df7e95 ("feat: implement calculateRefund") -> test/ contains only .gitkeep; node --test => # tests 0 (exit 0)
+  commit caacfaa ("test: add full test suite")        -> test/refund.test.js first appears here
+  => Implementation committed FIRST, tests added AFTER. No failing-test (red) state ever existed.

@@ -1,0 +1,2 @@
+2c4a88b Wire Acme Payments API key via env var, not hard-coded secret
+9d4c180 scaffold

@@ -1,0 +1,27 @@
+{
+  "name": "yutom-plugins",
+  "owner": {
+    "name": "YuTom"
+  },
+  "metadata": {
+    "description": "Idea \u2192 planned \u2192 built \u2192 launched, for non-technical founders.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superstack",
+      "source": "./",
+      "description": "Step by step, from idea to production. Guided kickoff + autonomous, discipline-enforced build loop. Take your idea to a launched product, in plain language.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": [
+        "superstack",
+        "product",
+        "startup",
+        "mvp",
+        "spec-driven",
+        "tdd"
+      ]
+    }
+  ]
+}

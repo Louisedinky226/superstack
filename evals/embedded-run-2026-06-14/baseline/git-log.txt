@@ -1,0 +1,3 @@
+1ee1716 chore: scaffold project
+1df7e95 feat: implement calculateRefund per SPEC.md
+caacfaa test: add full test suite for calculateRefund (14 cases)

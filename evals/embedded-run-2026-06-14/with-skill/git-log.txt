@@ -1,0 +1,9 @@
+8e19b51 chore: scaffold project
+4b41ee0 test: returns 0 when total <= 0 (red)
+516d833 feat: returns 0 when total <= 0 (green)
+633f4d2 test: defective returns full total (red)
+c5e4a42 feat: defective returns full total (green)
+357bba6 test: returns 0 when daysSincePurchase > 30 (green — rule already implemented)
+f47d39c test: shipped within window deducts $5 restocking fee (green)
+c00718f test: not shipped within window returns full total (green)
+8c9055f test: add edge cases — negative total and rounding (green)
