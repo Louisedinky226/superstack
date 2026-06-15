@@ -1,66 +1,162 @@
-# SuperStack
+<div align="center">
 
-### ⚡ Step by step, from idea to production.
+# ⚡ SuperStack
 
-**The complete stack that takes your idea all the way to a launched product — even if you
-can't write a single line of code.** SuperStack is the entire product team you don't have,
-in one place inside Claude: it plans your product *with* you in plain language, then builds,
-reviews, and ships it — end to end, to a professional standard.
+### Step by step, from idea to production.
 
-One stack. Idea in. Real, launched product out.
+**Turn an idea into a real, launched product — even if you've never written a line of code.**
+
+[![Built for Claude](https://img.shields.io/badge/Built%20for-Claude-8A2BE2)](https://claude.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](#)
+[![Coding](https://img.shields.io/badge/coding-not%20required-ff69b4)](#)
+[![Stars](https://img.shields.io/github/stars/tomzion90/superstack?style=social)](https://github.com/tomzion90/superstack)
+
+**[📖 Read the User Guide »](docs/USER-GUIDE.md)**  ·  [🚀 Install](#-install)  ·  [🗺️ How it works](#️-how-it-works-the-full-process)  ·  [❓ FAQ](docs/USER-GUIDE.md#-faq)
+
+</div>
 
 ---
 
-## Why SuperStack changes how you work with Claude
+SuperStack is a complete **product team inside Claude**: you bring the idea 💡, and it
+**plans, builds, tests, and ships** the product end to end — to a professional standard.
 
-Out of the box, Claude will happily write code. But on its own it won't *plan* your product,
-protect you from an over-built v1, enforce real testing, stop before it spends your money, or
-remember where you left off across days. **SuperStack makes Claude do all of it —
-automatically, as one connected stack from idea to production.**
+> 🥞 One stack. **Idea in → real, launched product out.**
 
-- **🧭 It plans before it builds.** A warm, plain-language kickoff turns your idea into a real
-  plan: who it's for, the smallest version worth shipping, the tech, and a schedule that runs
-  all the way to launch. You make the calls; SuperStack explains every choice.
-- **🛡️ It protects you from the expensive mistakes.** A *Simplicity Gate* stops you being sold
-  a bloated, costly build. Always-on guardians refuse to commit secrets, spend money, or go
-  live without your explicit OK.
-- **🔬 It builds like a disciplined engineer, not a hype machine.** Test-first development,
-  two-stage code review, root-cause debugging — and **nothing is ever called "done" without
-  proof you can actually see.**
-- **🔁 It remembers.** Every session opens with a focus menu of your top 3 next steps and
-  closes by saving progress — so multi-day work picks up exactly where it left off.
+> [!NOTE]
+> **New here? Start with the [📖 User Guide](docs/USER-GUIDE.md).** It's a fun, plain-English
+> manual that shows you exactly how to start, what to type, and how to go from idea to live —
+> no tech background needed.
 
-## Who it's for
+---
 
-Smart, non-technical founders with a real idea. **You own the intent — what to build and
-why. SuperStack owns the code — how.** You never have to read or write any.
+## 🤔 Who this is for
 
-## What's in the stack
+Smart, **non-technical** founders, makers, and dreamers with a real idea — people who don't
+know (and don't *need* to know) what an MVP, a stack, or a deployment is.
 
-A guided kickoff (discovery → market → tech → design → MVP → schedule-to-launch), then an
-autonomous, discipline-enforced build loop (TDD, two-stage review, systematic debugging,
-security and mobile gates), wrapped in always-on guardians for security, money, and privacy.
-Adapted from the best of **Superpowers** and **GitHub Spec-Kit**.
+> **You own the idea. SuperStack owns the code.** You never read or write any. 🙌
 
-## Proof, not promises
+---
 
-SuperStack ships with an **eval harness** (`evals/`) that tests its own discipline against
-real artifacts. The headline, git-verified result: with enforcement on, the build wrote a
-**failing test before the code** — where an unenforced build wrote the code first and tested
-after. See `evals/SCOREBOARD-and-pass-rate.md` for the honest, full picture.
+## ✨ Why use it (the short version)
 
-## Install
+Claude can already write code. But on its own it won't *plan* your product, keep it simple
+and cheap, *test* what it builds, stop before risky moves, or remember your project across
+days. SuperStack adds all of that — so you get a **real, maintainable, launched product, not
+a pile of unreviewed code.**
 
+| 😬 Without it | ✅ With SuperStack |
+|---|---|
+| Jumps straight to code | **Plans first** — you build the right thing |
+| Can over-engineer an expensive v1 | **Simplicity gate** — fewest parts, lowest cost |
+| "Done" = it wrote something | **Done = tested, reviewed, proven** |
+| Might leak secrets / spend / deploy on its own | **Always-on guardians** stop it before risk |
+| Forgets between chats | **Remembers** — picks up where you left off |
+| Needs you to read code | **You own the *what*; it owns the *how*** |
+
+---
+
+## 🚀 Install
+
+### Claude Code (CLI)
 ```
-/plugin marketplace add <your-username>/superstack
+/plugin marketplace add tomzion90/superstack
 /plugin install superstack@yutom-plugins
 ```
 
-Then just tell Claude your idea — *"I want to build an app that…"* — and SuperStack takes it
-from there.
+### Cowork (the Claude desktop app)
+1. Download **[`superstack.skill`](superstack.skill)** from this repo.
+2. In Cowork, open it and click **Save skill** — or go to **Settings → Capabilities** and add it.
 
-## License & credits
+> [!IMPORTANT]
+> After installing in either place, **start a new chat / restart** so the skill loads.
 
-MIT — built by YuTom. Disciplines adapted (with gratitude, MIT-licensed) from **Superpowers**
-by Jesse Vincent / Prime Radiant and **GitHub Spec-Kit**; skill-authoring follows Anthropic's
+---
+
+## ▶️ Quickstart (30 seconds)
+
+Just tell Claude your idea, like you'd tell a friend:
+
+> 💬 *"I have an idea for an app that reminds dog owners when they last walked their dog — help me build it from scratch."*
+
+SuperStack greets you, says **"protocol loaded,"** and starts the guided kickoff. From there
+it plans, builds, and ships — checking in only when a real decision or risk needs you. ✅
+
+👉 Full walkthrough with examples, tips, and "what to type": **[📖 User Guide](docs/USER-GUIDE.md)**
+
+---
+
+## 🗺️ How it works (the full process)
+
+```
+💡 idea ─▶ 🧭 KICKOFF ─▶ 🏗️ SCAFFOLD ─▶ 🔬 BUILD ─▶ 🌍 LAUNCH ─▶ 🔁 v2
+```
+
+**1. 🧭 Kickoff — it plans the product *with* you, in plain language (you make the calls):**
+Discovery (problem & audience) → Market (price & first users) → Tech & Design (the simplest
+fit, explained) → MVP (the smallest version worth shipping) → Schedule (a real plan to launch).
+**Creates:** a clear plan you understand and approve.
+
+**2. 🏗️ Scaffold — it makes the project real:**
+Creates the project, sets up **Git** (version control) and **CI from day one** — an automatic
+checker that runs your build, tests, formatting, and a **secret-scanner** on every change.
+**Creates:** a real, version-controlled project with its own docs.
+
+**3. 🔬 Build — an autonomous, disciplined loop, one feature at a time:**
+For each feature: **plan → failing test first (TDD) → build → two-stage review → QA → verify
+with real output.** Nothing is "done" without proof. Always-on guardians stop before secrets,
+spending, or going live. **Creates:** tested, reviewed, working features.
+
+**4. 🌍 Launch & beyond:**
+A planned go-live (web or app store) with monitoring + backups — then **day-2**: real feedback
+flows into the next version, through the same loop. **Creates:** a live product, and a v2 plan.
+
+**5. 🔄 Every session** opens with your **top-3 next tasks** and closes by saving progress — so
+multi-day work never loses its thread.
+
+---
+
+## 🔒 What's safe (straight talk)
+
+- 💸 **Never spends your money** without asking — and sets a spending cap with you.
+- 🔐 **Never stores or commits your secrets.**
+- 🚦 **Never goes live** without your explicit OK.
+- 🙈 Your code can live in a **private** repo only you can see.
+
+More in the [User Guide → What it costs & what's safe](docs/USER-GUIDE.md#-what-it-costs---whats-safe).
+
+---
+
+## 🧪 Proof, not promises
+
+SuperStack ships with an **eval harness** (`evals/`) that tests its own discipline against real
+artifacts. The headline, **git-verified** result: with enforcement on, the build wrote a
+**failing test before the code** — where an unenforced build wrote the code first and tested
+after. See [`evals/SCOREBOARD-and-pass-rate.md`](evals/SCOREBOARD-and-pass-rate.md) for the
+honest, full picture.
+
+---
+
+## ❓ Questions?
+
+The **[📖 User Guide](docs/USER-GUIDE.md)** has it all — a friendly FAQ, troubleshooting, a
+plain-English dictionary (MVP? stack? deploy? all explained), and "if something goes wrong, say
+this." Found a bug or have an idea? [Open an issue](https://github.com/tomzion90/superstack/issues). 🙌
+
+---
+
+## 📄 License & credits
+
+**MIT** — built by **YuTom**. Engineering disciplines adapted (with gratitude, MIT-licensed) from
+**[Superpowers](https://github.com/obra/superpowers)** by Jesse Vincent / Prime Radiant and
+**[GitHub Spec-Kit](https://github.com/github/spec-kit)**; skill-authoring follows Anthropic's
 published guidance.
+
+<div align="center">
+
+**Built something with SuperStack? Give it a ⭐ — it helps other founders find it.**
+
+⚡ *Idea in → real product out.*
+
+</div>
