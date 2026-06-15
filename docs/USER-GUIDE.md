@@ -12,7 +12,7 @@ that, just jump to the section you need.
 
 - [🌟 The one big idea (read this!)](#-the-one-big-idea-read-this)
 - [✅ Before you start (30 seconds)](#-before-you-start-30-seconds)
-- [🚀 How to start — your very first message](#-how-to-start--your-very-first-message)
+- [🚀 How to start a conversation (just say hi 👋)](#-how-to-start-a-conversation-just-say-hi-)
 - [🗺️ What happens, step by step](#️-what-happens-step-by-step)
 - [💬 How to talk to it](#-how-to-talk-to-it)
 - [⏸️ Pausing & 🔁 coming back tomorrow](#️-pausing---coming-back-tomorrow)
@@ -53,24 +53,51 @@ That's it. No setup, no accounts, nothing to configure. Onward! 🚀
 
 ---
 
-## 🚀 How to start — your very first message
+## 🚀 How to start a conversation (just say hi 👋)
 
-Just talk like a human. Tell it your idea in plain words. Here are real examples you can
-**copy, paste, and tweak**:
+Starting is the easiest thing in the world — **you literally can't get it wrong.** Whatever
+you type first, SuperStack runs its little opening routine: it **greets you**, says
+**"protocol loaded"** (that just means its full pro process is switched on, not winging it ✅),
+**checks where you are**, and points you to the next step. There are two situations:
+
+### 🆕 Your very first time — tell it your idea
+
+Just talk like a human, in plain words. Copy, paste, and tweak any of these:
 
 > 💬 *"I have an idea for an app that helps dog owners remember when they last walked their dog."*
 
 > 💬 *"Help me turn my idea into a real product, from scratch."*
 
-> 💬 *"I want to start a small business — here's the idea: a website where people book my photography sessions."*
+> 💬 *"I want to start a small business — a website where people book my photography sessions."*
 
-**What happens next:** SuperStack greets you, says **"protocol loaded"** (that means it's
-running its full pro process, not winging it ✅), and starts a friendly conversation to
-understand your idea. This first stage is called the **kickoff**.
+It then starts the friendly planning conversation — this first stage is called the **kickoff**.
+
+### 🔁 Every time after that — just say *hi*
+
+Once your project exists, you **don't need to re-explain anything**. Open a fresh chat and
+literally just say hello:
+
+> 💬 *"Hi"*  ·  *"Good morning"*  ·  *"Let's continue"*  ·  *"What's next?"*
+
+SuperStack reads where you left off and shows you a **menu of your top 3 next tasks** (the most
+important one marked **"Recommended"**). Pick one — or just say *"go"* — and it gets to work. ✨
+
+> [!IMPORTANT]
+> **One thing first: SuperStack needs to "see" your project folder.** That's how it remembers
+> where you left off. So when you come back:
+> - **In Cowork (desktop app):** make sure the **project folder is connected** to the chat
+>   before you say hi. If it isn't, SuperStack will simply *ask you to pick the folder* — point
+>   it at your project and you're set.
+> - **In Claude Code:** open your terminal **inside the project folder** (the one with your
+>   project files), then start the chat there.
+>
+> If the folder isn't connected, "hi" still works — SuperStack just won't find your old project
+> until you point it to the right folder. 🗂️
 
 > [!TIP]
-> The more you tell it about **who it's for** and **what problem it solves**, the better
-> the result. One or two sentences is plenty to start — it'll ask for the rest.
+> Even a **one-word "hi"** is enough to open a session. 👋 The more you say, the more it has to
+> work with — but you never *have* to say a lot. For the very first session, *who it's for* +
+> *the problem it solves* is a great start; it'll ask for the rest.
 
 ---
 
