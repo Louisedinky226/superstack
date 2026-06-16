@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/01_cover.png" alt="SuperStack — step by step, from idea to production" width="820">
+
 # ⚡ SuperStack
 
 ### Step by step, from idea to production.
@@ -87,7 +89,39 @@ it plans, builds, and ships — checking in only when a real decision or risk ne
 
 ---
 
+## 📸 See it in action
+
+**Day one — just tell it your idea.** No tech talk, no menus. It starts a warm, human conversation to understand what you're building.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/03_in_action.png" alt="The SuperStack kickoff — a warm, plain-language conversation about your idea" width="780">
+
+</div>
+
+**Every session after — you just say hi.** It remembers where you left off and hands you the 3 most useful things to do next, with the top one recommended.
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/03b_session.png" alt="A returning session — SuperStack's opening ritual with a focus menu" width="780">
+
+<br><br>
+
+<em>One disciplined loop, idea to live product:</em>
+
+<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/05_promo.gif" alt="The SuperStack loop: idea → kickoff → scaffold → build → launch" width="780">
+
+</div>
+
+---
+
 ## 🗺️ How it works (the full process)
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/02_flow.png" alt="SuperStack process: idea, kickoff, scaffold, build, launch, repeat" width="820">
+
+</div>
 
 ```
 💡 idea ─▶ 🧭 KICKOFF ─▶ 🏗️ SCAFFOLD ─▶ 🔬 BUILD ─▶ 🌍 LAUNCH ─▶ 🔁 v2
