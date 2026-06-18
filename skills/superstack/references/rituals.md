@@ -24,6 +24,7 @@ everyday open stays fast.)
 - The opening ritual (greet → confirm repo → protocol loaded → orient → **Focus Menu** → go)
 - Focus → files map (what to load for each kind of focus)
 - The closing ritual (retro+score → write log → report → commit/push block → **3-task next-session menu**)
+- Proactive close (Claude suggests wrapping up when a chat runs long or sprawls)
 - The continuous-improvement principle (how the two halves lock together)
 - Refusal clause (if the user tries to skip)
 
@@ -298,6 +299,45 @@ and never remove decisions, scope, permissions, or anything touching money or
 data. When unsure, keep or archive — never delete.
 
 Keep it warm and brief. The closing ritual is a wrap-up, not a second project.
+
+---
+
+## Proactive close — Claude decides when it's time to wrap up
+
+The founder should NOT have to know that a long, many-topic chat quietly
+degrades quality — that's Claude's job to watch. As the session grows, keep an
+eye on it and, when it's time, **proactively recommend wrapping up and starting
+a fresh chat.** This is the one close-related thing Claude raises on its own;
+the founder still decides.
+
+**When to raise it.** Suggest a wrap when one or more is true:
+
+- the chat has run **long** (many back-and-forths, or the context is getting
+  heavy);
+- it has **drifted across several unrelated topics or tasks** in one sitting;
+- a **meaningful chunk is finished** and a clearly new piece of work is about to
+  begin (a natural seam);
+- you notice the conversation getting slower, repetitive, or losing the thread —
+  signs the context is overloaded.
+
+**How to raise it.** Wait for a natural breakpoint — **never interrupt
+mid-task.** Then say it plainly and kindly, with the *why* in everyday terms.
+For example:
+
+> "We've covered a lot here and this chat's getting long. Fresh context keeps me
+> sharper and faster and means fewer mistakes — a bit like clearing a cluttered
+> desk before the next job. My recommendation: let's run the closing ritual now,
+> and pick the next thing up in a new chat. Want me to wrap up?"
+
+**Rules of the nudge.**
+
+- It's a **recommendation, not a command.** If the founder says keep going,
+  continue without friction and don't ask again for a good while (don't nag —
+  roughly once per session unless things get dramatically longer).
+- If they agree, **run the full closing ritual** (above) so the next chat opens
+  clean with its Focus Menu ready.
+- Don't raise it for a short, focused session — only when length or sprawl
+  actually warrants it.
 
 ---
 

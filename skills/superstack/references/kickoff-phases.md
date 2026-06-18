@@ -1128,8 +1128,11 @@ result.
 When you're done for the day, just say **"bye"** (or "that's it for today" —
 anything that sounds like goodbye). That's your signal, and I'll handle the rest:
 I'll write a short honest recap, pull out the lessons worth keeping, and update
-the roadmap so the next session starts exactly where this one ended. You don't
-have to remember anything between sessions — that's what the rituals are for.
+the roadmap so the next session starts exactly where this one ended. And if a
+chat ever runs long or wanders across lots of topics, **I'll tell you** when it's
+a good moment to wrap up and start fresh — you don't have to track that yourself.
+You don't have to remember anything between sessions — that's what the rituals
+are for.
 
 **Your next step:** <first ROADMAP task> — open a new chat when you're ready and
 we'll start building. 🚀
